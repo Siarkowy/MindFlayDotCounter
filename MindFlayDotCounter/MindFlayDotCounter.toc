@@ -1,0 +1,9 @@
+## Interface: 20400
+## Title: Mind Flay Dot Counter
+## Notes: Displays icon to stop Mind Flay after second tick.
+## Author: Siarkowy <siarkowy@siarkowy.net>
+## X-Website: https://github.com/Siarkowy/MindFlayDotCounter
+## X-License: GNU GPL v3
+## Version: 1.0
+
+core.lua
