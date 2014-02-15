@@ -4,6 +4,6 @@
 ## Author: Siarkowy <siarkowy@siarkowy.net>
 ## X-Website: https://github.com/Siarkowy/MindFlayDotCounter
 ## X-License: GNU GPL v3
-## Version: 1.0
+## Version: 1.0.1
 
 core.lua

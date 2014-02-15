@@ -41,13 +41,13 @@ end
 
 -- Core ------------------------------------------------------------------------
 
-local band = bit.band
 local count = 0
+local player = UnitName("player")
 local timer
 
 MFDC:SetScript("OnEvent", function(self, event, time, type, sGuid, sName, sFlags,
     dGuid, dName, dFlags, spellId, spellName)
-    if spellName ~= "Mind Flay" or not band(sFlags, 1) then
+    if spellName ~= "Mind Flay" or sName ~= player then
         return
     end
 
